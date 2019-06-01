@@ -1,0 +1,261 @@
+#header01{
+	background-color: #f4f4f4;
+	height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 30px;
+}
+#header02{
+	height: 30px;
+}
+.btn01{
+	font-size: 14px;
+	color: black;
+	margin-left: 20px;
+}
+.Sbox{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+.Sbox img{
+	width: 100%;
+	height: 100%;
+}
+#searchBox{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+}
+.searchBoxLogo{
+	width: 133px;
+	height: 48px;
+	float: left;
+	padding: 20px 10px 0 0;
+}
+.searchBoxAdress{
+	width: 245px;
+	height: 44px;
+	padding: 26px 10px 0 10px;
+	line-height: 35px;
+}
+#searchBoxAdressBox{
+	width: 177px;
+	height: 28px;
+	margin-left: 10px;
+}
+.search input{
+    float: right;
+    width: 260px;
+    height: 20px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border: 1px solid #eceaea;
+    border-radius: 5px;
+    background: #fcfbfb;
+}
+.cartHeader {
+    margin: 10px auto;
+    padding: 0 30px;
+    height: 40px;
+    width: 1140px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    background: #fff;
+    color: #666;
+    line-height: 40px;
+    background-color:white;
+}
+.quanxuan{
+	margin: 0 20px;
+}
+.xinxi{
+	margin: 0 40px;
+}
+.danjia{
+	margin: 0 60px;
+}
+.tableBox{
+	width: 1200px;
+	height: 272px;
+	margin: 0 auto;
+}
+.tableBoxHeader{
+	width: 1138px;
+	height: 14px;
+	padding: 20px 30px;
+	background-color:white;
+	line-height: 14px;
+	border: 1px solid gainsboro;
+}
+.tableGoods{
+	width: 1138px;
+	height: 73px;
+	padding: 20px 30px;
+	background-color: white;
+	line-height: 73px;
+	border-bottom: 1px dashed gainsboro;
+}
+.tableGoods:hover{
+	background-color: papayawhip;
+}
+#tableGoodsPic{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 20px;
+}
+#tableGoodsText{
+	width: 260px;
+	height: 44px;
+	margin-left: 10px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+.tableGoodsPrice{
+	width: 200px;
+	height: 24px;
+	text-align: right;
+	line-height: 24px;
+}
+#tableMathBox{
+	width: 205px;
+	height: 26px;
+}
+.tableMathBox01{
+	width: 82px;
+	height: 26px;
+	border: 1px solid gainsboro;
+	float: right;
+}
+.sub{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 18px;
+	padding: 3px 0px;
+	font-size: 16px;
+	border-right: 1px solid gainsboro;
+}
+.numberBox{
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	padding: 3px 0px;
+	font-size: 16px;
+}
+.add{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 18px;
+	padding: 3px 0px;
+	font-size: 16px;
+	border-left: 1px solid gainsboro;
+}
+.tableGoodstotlePrice{
+	width: 200px;
+	height: 24px;
+	text-align: right;
+	line-height: 24px;
+}
+#aa{}
+.allPrice{}
+#tail{
+	height: 127px;
+	background-color: white;
+	border-bottom: 1px solid #f4f4f4;
+	margin-top: 50px;
+}
+#tailBox{
+	width: 216px;
+	height: 66px;
+	margin-right: 50px;
+	padding: 30.5px 0;
+}
+#tailBoxSon{
+	width: 66px;
+	height: 66px;
+}
+#tailBoxSon2{
+	width: 127px;
+	height: 50px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.tailBoxSon2{
+	margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
+#tailOne{
+	height: 172px;
+	/*background-color: palegoldenrod;*/
+}
+#tailOneSon{
+	width: 739px;
+	height: 152px;
+	/*background-color: palegreen;*/
+	padding: 10px 20px;
+}
+#tailOneSon2{
+	width: 145px;
+	height: 32px;
+	/*background-color: palevioletred;*/
+	padding: 0px 10px;
+	float: left;
+	font-size: 15px;
+	text-align: left;
+	line-height: 32px;
+	color: grey;
+	font-weight: bold;
+}
+#tailOneSon3{
+	width: 145px;
+	height: 24px;
+	/*background-color: paleturquoise;*/
+	float: left;
+	font-size: 14px;
+	text-align: left;
+	line-height: 24px;
+	color: gray;
+	padding: 0px 10px;
+}
+#tailtwoSon{
+	width: 280px;
+	height: 122px;
+	margin-top: -150px;
+}
+#tailtwoSon2{
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin: 0px 10px;
+}
+#tailtwoSon3{
+	width: 90px;
+	height: 32px;
+	float: left;
+	margin: 0px 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+}
+
+#footer01{
+	width: 1349px;
+	height: 12px;
+	text-align: center;
+	line-height: 12px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+#footer02{
+	width: 1349px;
+	margin: 0 auto;
+}
+#footer02 img{
+	width: 100%;
+}

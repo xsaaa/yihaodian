@@ -1,0 +1,720 @@
+#header01{
+	background-color: #f4f4f4;
+	height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 30px;
+}
+#header02{
+	height: 30px;
+}
+.btn01{
+	font-size: 14px;
+	color: black;
+	margin-left: 20px;
+}
+.Sbox{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+.Sbox img{
+	width: 100%;
+	height: 100%;
+}
+#nav01{
+	width: 1349px;
+	height: 178px;
+	background-size:  1920px 180px;
+	background-color: white;
+	margin: 0px auto;	
+	border-bottom: 2px solid orangered;
+}
+#nav02{
+	height: 180px;
+}
+#logo{
+	height: 130px;
+	width: 300px;
+	float: left;
+}
+.logo1{
+	width: 140px;
+	height: 140px;
+}
+.logo2{
+	width: 150px;
+	height: 90px;
+	margin-top: 30px;
+}
+#logo_right{
+	width: 620px;
+	height: 130px;
+}
+#search{
+	width: 490px;
+	height: 40px;
+	border: solid 1px gainsboro;
+	border-radius: 20px;
+	margin-top: 45px;
+	background-color: white;
+}
+#search:hover{
+	border-color: orangered;
+}
+.input{
+	width: 400px;
+	height: 38px;
+	margin: 1px 30px;
+	font-size: 16px;
+	border: none;
+	outline: none;
+}
+#fangda{
+	width: 40px;
+	height: 40px;
+	margin-top: -25px;
+	margin-left: 445px;
+}
+#shopcar01{
+	width: 122px;
+	height: 40px;
+	background-color: white;
+	margin-top: -42px;
+	border-radius: 20px;
+	border: 1px solid gainsboro;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.Sbox2{
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+.Sbox2 img{
+	width: 120%;
+	height: 120%;
+	margin-top: -7px;
+}
+#shopcar01:hover {
+	background-color: #f4f4f4;
+}
+#list01{
+	width: 650px;
+	height: 27px;
+}
+.btn02{
+	margin: 8px 10px;
+	font-size: 14px;
+	float: left;
+	color: gray;
+}
+.btn02:hover {
+	color: black;
+}
+#list02{
+	height: 38px;	
+	line-height: 38px;
+	padding-top: 10px;
+}
+.btn03{
+	margin-right: 30px;
+	font-size: 16px;
+	float: left;
+}
+#caidan{
+	background-color: orangered;
+	color: white;
+}
+.Sbox3{
+	width: 16px;
+	height: 16px;
+	padding: 3px 7px;
+}
+.Sbox3 img{
+	width: 120%;
+	height: 120%;
+	margin-top: -7px;
+}
+#iconDown{
+	width: 20px;
+	height: 38px;
+	background-image: url(../img/index/iconDown.png);
+	background-size: 80% 60%;
+	background-repeat: no-repeat;
+	background-position: 2px 10px;
+}
+#detailBody{
+	width: 1200px;
+	height: 668px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+}
+#detailNav{
+	width: 1200px;
+	height: 39px;
+	/*background-color: palegreen;*/
+}
+#detailNavSon{
+	width: 720px;
+	height: 39px;
+	/*background-color: paleturquoise;*/
+}
+.detailNavSon001{
+	width: 100px;
+	height: 38px;
+	/*background-color: plum;*/
+	float: left;
+	margin-right: 10px;
+	line-height: 38px;
+}
+#goodsBody{
+	width: 1200px;
+	height: 528px;
+	/*background-color: peachpuff;*/
+	margin-top: 10px;
+}
+.fangdajing {
+	width: 400px;
+	height: 485px;
+	/*background-color: paleturquoise;*/	
+}
+.bigPic{
+	width: 358px;
+	height: 358px;
+	padding: 20px;
+	border: 1px solid gray;
+	background-color: white;
+	position: relative;
+}
+.bigPic:hover .squre{
+	display: block;
+}
+.largePic{
+	width: 552px;
+	height: 452px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 410px;
+	border: 1px solid gray;
+	overflow: hidden;
+	display: none;
+	z-index: 100;
+}
+.largePic img{
+	width: 150%;
+	height: 180%;
+	position: absolute;
+}
+.squre{
+	width: 180px;
+	height: 150px;
+	background-color: blueviolet;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	opacity: 0.3;
+	display: none;
+}
+.bigPic:hover .largePic{
+	display: block;
+}
+.btnBox{
+	width: 400px;
+	height: 70px;
+	background-color: white;
+	/*margin: 0 auto;*/
+	overflow: hidden;
+	/*margin-left: 20px;*/
+	position: relative;
+}
+.btnBox02{
+	width: 500px;
+	height: 60px;
+	background-color: white;
+	/*margin: 0 auto;*/
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+.btnPic{
+	width: 46px;
+	height: 46px;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid white;
+}
+.btnPic:hover{
+	/*border-color: gray;*/
+	cursor: pointer;
+}
+.leftBtn{
+	width: 20px;
+	height: 70px;
+	background-color: white;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.rightBtn{
+	width: 28px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 100;
+}
+.goodsNum{
+	font-size: 14px;
+	color: gray;
+}
+#heart{
+	width: 21px;
+	height: 17px;
+	background-color: black;
+}
+.information{
+	width: 570px;
+	height: 512px;
+	/*background-color: palevioletred;*/
+	margin-left: 10px;
+}
+#titleBox{
+	width: 570px;
+	height: 32px;
+	/*background-color: palegreen;*/
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.Detail{
+    background: #fef0ef;
+    border: 1px solid #fba8b2;
+    font-size: 12px;
+    color: #ff4040;
+}
+#priceBox{
+	width: 550px;
+	height: 28px;
+	padding: 10px 10px;
+	background-color: papayawhip;
+	line-height: 28px;
+}
+.priceText{
+	color: #666;
+    width: 60px;
+    line-height: 28px;
+    float: left;
+}
+.currentPrice{
+	font-size: 26px;
+	line-height: 28px;
+	float: left;
+	margin-left: 20px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    color: #e60012;
+}
+#cuxiao{
+	width: 570px;
+	height: 69px;
+	/*background-color: plum;*/
+	border-bottom: 1px dashed gainsboro;
+}
+.cuxiaoBox{
+	width: 70px;
+	height: 26px;
+	/*background-color: palegreen;*/
+	float: left;
+	margin: 20px 10px;
+	line-height: 26px;
+}
+.cuxiaoBox02{
+	width: 450px;
+	height: 54px;
+	/*background-color: papayawhip;*/
+	float: left;
+	margin: 6px 0px;
+	line-height: 27px;
+}
+#priceBox02{
+	width: 370px;
+	height: 28px;
+	padding: 0px 100px;
+	background-color: bisque;
+	line-height: 28px;
+}
+.taste{
+	width: 538px;
+	height: 60px;
+	/*background-color: peachpuff;*/
+	font-size: 16px;
+	line-height: 58px;
+	padding: 10px 20px;
+	border-bottom: 1px dashed gainsboro;
+}
+
+.tasteBox{
+	width: 110px;
+	height: 40px;
+	border: 1px solid gray;
+	margin-left: 20px;
+	font-size: 13px; 
+	line-height: 40px;
+}
+#tasteBoxPic{
+	width: 30px;
+	height: 30px;
+	/*margin-top: px;*/
+}
+#addr{
+	width: 530px;
+	height: 37px;
+	/*background-color: plum;*/
+	padding: 20px;
+}
+#addShopCar{
+	width: 500px;
+	height: 48px;
+	/*background-color: peachpuff;*/
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.number{
+	width: 46px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	border: 1px solid gainsboro;
+	/*background-color: blue;*/
+	font-size: 17px;
+	font-weight: bold;
+}
+#Button{
+	width: 22px;
+	height: 46px;
+	text-align: center;
+	/*line-height: 28px;
+	font-size: 20px;*/
+	border: 1px solid gainsboro;
+	/*background-color: palegreen;*/
+}
+#Button:hover{
+	cursor: pointer;
+}
+.upButton{
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 20px;
+	border-bottom: 1px solid gainsboro;
+	float: left;
+	/*background-color: palevioletred;*/
+}
+.downButton{
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 20px;
+	float: left;
+	/*background-color: palevioletred;*/
+	/*border: 1px solid ghostwhite;*/
+}
+#addShopcarSon{
+	width: 138px;
+	height: 48px;
+	background-color: orangered;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+	margin-left: 10px;
+	border-radius: 2px;
+	font-size: 18px;
+	opacity: 0.8;
+}
+#addShopcarSon:hover{
+	opacity: 1;
+}
+.text{
+	margin-left: 10px;
+	line-height: 80px;
+}
+.borederSon{
+	width: 570px;
+	height: 2px;
+	border-bottom: 1px dashed gainsboro;
+	margin-top: 80px;
+	/*background-color: palegoldenrod;*/
+}
+.text02{
+	width: 530px;
+	height: 21px;
+	/*background-color: peru;*/
+	padding: 20px 10px;
+	font-size: 16px;
+	color: gray;
+}
+.introduce{
+	width: 176px;
+	height: 600px;
+	/*background-color: paleturquoise;*/
+	margin-left: 40px;
+	border: 1px solid gainsboro;
+}
+.introduceTitle{
+	width: 138px;
+	height: 31px;
+	background-color: #F4F4F4;
+	font-size: 15px;
+	line-height: 31px;
+	padding: 0 20px;
+	border-bottom: 1px solid gainsboro;
+}
+.introducePicbox{
+	width: 130px;
+	height: 170px;
+	/*background-color: bisque;*/
+	padding: 10px 24px;
+}
+.introducePic{
+	width: 120px;
+	height: 120px;
+	/*background-color: blueviolet;*/
+	margin: 0 auto;
+}
+.introducePic img{
+	width: 100%;
+	height: 100%;
+}
+.introducePicText{
+	width: 138px;
+	height: 14px;
+	/*background-color: cornflowerblue;*/
+	overflow: hidden;
+	margin: 10px 0;
+	text-align: center;
+}
+.introducePicPrice{
+	width: 138px;
+	height: 16px;
+	/*background-color: cornflowerblue;*/
+	text-align: center;
+	line-height: 16px;
+	font-size: 16px;
+	color: orangered;
+}
+#detailBody02{
+	width: 1200px;
+	/*height: 1068px;*/
+	height: 3800px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+}
+#saw{
+	width: 190px;
+	height: 756px;
+	padding: 10px 10px;
+	/*background-color: palegreen;*/
+	border: 1px solid gainsboro;
+}
+#sawTitle{
+	width: 190px;
+	height: 36px;
+	/*background-color: paleturquoise;*/
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+}
+#sawPic{
+	width: 190px;
+	height: 239px;
+	margin: 0 auto;
+	/*background-color: bisque;*/
+	border-top: 1px solid gainsboro;
+}
+#sawPicBox{
+	width: 150px;
+	height: 150px;
+	margin: 5px auto;
+}
+#sawPicBox img{
+	width: 150px;
+	height: 150px;
+}
+#sawPicText{
+	width: 190px;
+	height: 20px;
+	/*background-color: papayawhip;*/
+}
+#sawPicPrice{
+	width: 190px;
+	height: 43px;
+	margin: 5px auto;
+	/*background-color: papayawhip;*/
+}
+#sawPicNav{
+	width: 955px;
+	height: 3800px;
+	/*background-color: palegreen;*/
+	margin-left: 10px;
+}
+#sawPicNav01{
+	width: 980px;
+	height: 42px;
+	background-color: #F4F4F4;
+	border: 1px solid gainsboro;
+}
+.sawPicNav01Box{
+	width: 111px;
+	height: 42px;
+	border-right: 1px solid gainsboro;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+}
+#sawPicNav01Box02{
+	width: 955px;
+	height: 3250px;
+	/*background-color: burlywood;*/
+}
+#sawPicNav01Box02Son{
+	width: 955px;
+	height: 112px;
+	padding-top: 10px;
+}
+#sawPicNav01Box02Box{
+	width: 750px;
+	/*height: 2022px;*/
+	/*padding-top: 10px;*/
+}
+#sawPicNav01Box02Son02{
+	width: 750px;
+	height: 622px;
+	padding-top: 10px;
+}
+#sawPicNav01Box02Son03{
+	width: 955px;
+	height: 420px;
+	padding-top: 10px;
+}
+#sawPicNav01Box02Son04{
+	width: 955px;
+	height: 156px;
+	padding-top: 20px;
+}
+#commentBox{
+	width: 980px;
+	height: 30px;
+	padding-top: 20px;
+	line-height: 30px;
+	font-size: 16px;
+	border-bottom: 1px solid gray;
+	/*background-color: palegreen;*/
+}
+#tail{
+	height: 127px;
+	background-color: white;
+	border-bottom: 1px solid #f4f4f4;
+	margin-top: 50px;
+}
+#tailBox{
+	width: 216px;
+	height: 66px;
+	margin-right: 50px;
+	padding: 30.5px 0;
+}
+#tailBoxSon{
+	width: 66px;
+	height: 66px;
+}
+#tailBoxSon2{
+	width: 127px;
+	height: 50px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.tailBoxSon2{
+	margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
+#tailOne{
+	height: 172px;
+	/*background-color: palegoldenrod;*/
+}
+#tailOneSon{
+	width: 739px;
+	height: 152px;
+	/*background-color: palegreen;*/
+	padding: 10px 20px;
+}
+#tailOneSon2{
+	width: 145px;
+	height: 32px;
+	/*background-color: palevioletred;*/
+	padding: 0px 10px;
+	float: left;
+	font-size: 15px;
+	text-align: left;
+	line-height: 32px;
+	color: grey;
+	font-weight: bold;
+}
+#tailOneSon3{
+	width: 145px;
+	height: 24px;
+	/*background-color: paleturquoise;*/
+	float: left;
+	font-size: 14px;
+	text-align: left;
+	line-height: 24px;
+	color: gray;
+	padding: 0px 10px;
+}
+#tailtwoSon{
+	width: 280px;
+	height: 122px;
+	margin-top: -150px;
+}
+#tailtwoSon2{
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin: 0px 10px;
+}
+#tailtwoSon3{
+	width: 90px;
+	height: 32px;
+	float: left;
+	margin: 0px 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+}
+
+#footer01{
+	width: 1349px;
+	height: 12px;
+	text-align: center;
+	line-height: 12px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+#footer02{
+	width: 1349px;
+	margin: 0 auto;
+}
+#footer02 img{
+	width: 100%;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shoppingCar.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/shoppingCar.js"></script>
+	</head>
+	<body style="background-color: #F4F4F4;">
+		<div id="header01" class="t">
+			<div id="header02" class="c">
+				<ul>
+					<li class="btn01 l">
+						<div class="Sbox l"><img src="img/position.png"/></div>
+						<a href="index.html">回到首页</a>
+					</li>					
+				</ul>
+				<ul class="r">					
+					<li class="btn01 l">您好,请<a href="login.html" style="color: red;">登录</a></li>
+					<li class="btn01 l"><a href="register.html">注册</a></li>
+					<li class="btn01 l">
+							<div class="Sbox l"><img src="img/VIP.png"/></div>
+							<a href="#">会员俱乐部</a>
+					</li>
+					<li class="btn01 l">
+						<div class="Sbox l"><img src="img/work.png"/></div>
+						<a href="shoppingCar.html">我的订单</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div style="height: 600px;">
+				<div id="searchBox">
+					<div class="searchBoxLogo l">
+						<img src="img/shoppingCar/logo01.JPG"/>
+					</div>
+					<div class="searchBoxAdress l">
+						<span class="l">配送至:</span>
+						<div id="searchBoxAdressBox" class="l">
+							<p>上海&nbsp;&nbsp;|&nbsp;&nbsp;静安区&nbsp;&nbsp;|&nbsp;&nbsp;城区</p>
+						</div>
+					</div>
+					<div class="search">
+							<input type="text" placeholder="请输入关键词">
+					</div>
+				</div>
+				<div class="cartHeader">
+					<input type="checkbox" /><span class="quanxuan">全选</span>
+					<span class="xinxi">商品信息</span>
+					<span class="danjia">单价（元）</span>
+					<span class="danjia">数量</span>
+					<span class="danjia">小计（元）</span>
+					<span class="danjia">操作</span>
+				</div>
+				<div class="tableBox">
+					<div class="tableBoxHeader l">
+						<input type="checkbox"/><span class="quanxuan">自营</span>
+				    </div>
+				    <div class="tableGoods l">
+				    	<input type="checkbox" class="l" style="margin-top: 30px;"/>
+				    	<div id="tableGoodsPic">
+				    		<img src="img/shoppingCar/table01.jpg"/>
+				    	</div>
+				    	<div id="tableGoodsText" class="l">
+				    		<p><a href="#">单身狗粮（SINGLE DOG） 美式番茄味马铃薯片71g 网红膨化小吃袋装 </a></p>
+				    	</div>
+				    	<div class="tableGoodsPrice l">
+				    		9.90
+				    	</div>
+				    	<div id="tableMathBox" class="l">
+				    		<div class="tableMathBox01">
+				    			<div class="sub l">-</div>
+				    			<div class="l numberBox">1</div>
+				    			<div class="add r">+</div>
+				    		</div>
+				    	</div>
+				    	<div class="tableGoodstotlePrice l">
+				    		9.90
+				    	</div>
+				    	<button id="del" class="r">删除</button>
+				    </div>
+				    
+				    <div class="tableGoods l">
+				    	<input type="checkbox" class="bb l" style="margin-top: 30px;"/>
+				    	<div id="tableGoodsPic">
+				    		<img src="img/shoppingCar/table01.jpg"/>
+				    	</div>
+				    	<div id="tableGoodsText" class="l">
+				    		<p><a href="#">单身狗粮（SINGLE DOG） 美式番茄味马铃薯片71g 网红膨化小吃袋装 </a></p>
+				    	</div>
+				    	<div class="tableGoodsPrice l">
+				    		9.90
+				    	</div>
+				    	<div id="tableMathBox" class="l">
+				    		<div class="tableMathBox01">
+				    			<div class="sub l">-</div>
+				    			<div class="l numberBox">1</div>
+				    			<div class="add r">+</div>
+				    		</div>
+				    	</div>
+				    	<div class="tableGoodstotlePrice l">
+				    		9.90
+				    	</div>
+				    	<button class="del r">删除</button>
+				    </div>
+				    <div class="tableBoxHeader l">
+						<span class="l">商品总价</span>
+						<div class="allPrice r">
+							00.00
+						</div>
+				    </div>
+				</div>
+		</div>
+		<div class="t" style="background-color: white;">
+			<div id="tail" class="c">
+				<ul style="margin: 0px auto;">
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo16.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>正品保障</b></p>
+							<p>正品行货 放心选购</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo17.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>满86包邮</b></p>
+							<p>满86元 免运费</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo19.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>售后无忧</b></p>
+							<p>7天无理由退货</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo18.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>准时货达</b></p>
+							<p>收货时间由你做主</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="t" style="background-color: white;">
+			<div id="tailOne" class="c">
+				<div id="tailOneSon">
+					<ul>
+						<li id="tailOneSon2">新手入门</li>
+						<li id="tailOneSon2">支付方式</li>
+						<li id="tailOneSon2">配送服务</li>
+						<li id="tailOneSon2">售后保障</li>
+					</ul>
+					<ul>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3"></li>
+						<li id="tailOneSon3"></li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3"></li>	
+					</ul>
+				</div>
+				<div id="tailtwoSon" class="r">
+					<ul>
+						<li id="tailtwoSon3">APP更优惠</li>
+						<li id="tailtwoSon3">加微信查订单</li>
+					</ul>
+					<ul>
+						<li id="tailtwoSon2"><img src="img/index/APP.png"/></li>
+						<li id="tailtwoSon2"><img src="img/index/wechat.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="t" style="background-color: white;">
+			<div id="footer01">
+				<p>沪ICP备16050468&nbsp;|&nbsp;经营证照&nbsp;|&nbsp;互联网药品信息服务资格证&nbsp;|&nbsp;
+			   违法和不良信息举报电话：0527-88100253&nbsp;|&nbsp;沪B2-20170039&nbsp;|&nbsp;
+			 沪公网安备 31010502002939号&nbsp;|&nbsp; 友情链接&nbsp;|&nbsp;出版物经营许可证&nbsp;|&nbsp;
+			 增值电信业务经营许可证</p>
+			</div>
+			<div id="footer02">
+				<img src="img/index/logoPic/BigLogo.JPG"/>
+			</div>
+		</div>
+	</body>
+</html>

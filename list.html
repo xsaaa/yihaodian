@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/list.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/list/listGoodsData.js"></script>
+		<script src="js/list/list.js"></script>
+	</head>
+	<body style="background-color: #F4F4F4;">
+		<div id="header01" class="t">
+			<div id="header02" class="c">
+				<ul>
+					<li class="btn01 l">
+						<div class="Sbox l"><img src="img/position.png"/></div>
+						<a href="index.html">回到首页</a>
+					</li>					
+				</ul>
+				<ul class="r">					
+					<li class="btn01 l">您好,请<a href="login.html" style="color: red;">登录</a></li>
+					<li class="btn01 l"><a href="register.html">注册</a></li>
+					<li class="btn01 l">
+							<div class="Sbox l"><img src="img/VIP.png"/></div>
+							<a href="#">会员俱乐部</a>
+					</li>
+					<li class="btn01 l">
+						<div class="Sbox l"><img src="img/work.png"/></div>
+						<a href="shoppingCar.html">我的订单</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="nav01">
+			<div id="nav02" class="c">
+				<div id="logo" class="l">
+					<img src="img/index/logoPic/logo01.png" class="logo1 l"/>
+					<img src="img/index/logoPic/logo02.jpg" class="logo2 r"/>
+				</div>
+				<div id="logo_right" class="r">
+					<div id="search">
+						<input type="text"placeholder="口红" class="input"/>	
+						<div id="fangda" >
+							<div class="Sbox l"><img src="img/index/fangdajing.png"/></div>
+						</div>
+					</div>
+					<div id="shopcar01" class="r">
+							<div class="Sbox2 l"><img src="img/index/shopCar.png"/></div>
+							<span><a href="shoppingCar.html" style="color: black;">购物车</a></span>
+					</div>
+					<div id="list01">
+						<ul class="l" style="margin-left: 20px;">
+							<li class="btn02">宝宝大米</li>
+							<li class="btn02">茶叶冰箱</li>
+							<li class="btn02">畅玩7a</li>
+							<li class="btn02">洗衣剂</li>
+							<li class="btn02">通厕剂</li>
+							<li class="btn02">洗洁精</li>
+							<li class="btn02">大公鸡</li>
+						</ul>
+					
+				    </div>
+				</div>
+				<ul id="list02" class="l">
+					<li class="btn03" id="caidan">
+						<div class="Sbox3 l"><img src="img/index/list.png"/></div>
+							全部类目
+							<div class="r" id="iconDown"></div>
+					</li>
+					<li class="btn03"><a href="">领券中心</a></li>
+					<li class="btn03"><a href="">领金币</a></li>
+					<li class="btn03"><a href="">充值</a></li>
+					<li class="btn03"><a href="">超级单品</a></li>
+					<li class="btn03"><a href="">超级品牌</a></li>				
+					<li class="btn03"><a href="">超级品类</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="advertise" class="t">
+			<div id="advertiseBox">
+				<img src="img/list/ad.JPG"/>
+			</div>			
+		</div>
+		<div id="listBody" class="c">
+			<div id="listBodyNav">
+				<ul>
+					<li id="listBodyNavBox01"><span class="iconfont" style="color: orangered;font-size: 14px;">&#xe649;&nbsp;</span>
+						全部结果&nbsp;&nbsp;&nbsp;&nbsp;<span class="iconfont" style="font-size: 15px;">&#xe603;</span>
+					</li>
+					<li id="listBodyNavBox01">食品饮料<span class="iconfont" style="font-size: 16px;line-height: 20px;">&#xe612;&nbsp;&nbsp;&nbsp;&nbsp;&#xe603;</span></li>
+					<li id="listBodyNavBox01">进口食品<span class="iconfont" style="font-size: 15px;">&#xe612;&nbsp;&nbsp;&nbsp;&nbsp;&#xe603;</span></li>
+					<li id="listBodyNavBox01">休闲零食<span class="iconfont" style="font-size: 15px;">&#xe612;&nbsp;&nbsp;&nbsp;&nbsp;&#xe603;</span></li>
+				</ul>
+				<input id="listBodyNavBox02" placeholder="在结果中查询" />
+				<div id="listBodyNavBox04">共500+条</div>
+			</div>
+			<div id="listBodyType01">
+				<div id="listBodyType01Son01">品牌</div>
+				<div id="listBodyType01Son02">
+					<ul>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">多力多滋</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+						<li class="l" id="listBodyType01Son03">丽芝士</li>
+					</ul>
+					<div id="listBodyType01grandSon">
+						<ul>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />多力多滋</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"><input type="checkbox" />丽芝士</li>
+						<li class="l" id="listBodyType01Son03"></li>
+						<li class="l" id="listBodyType01Son03"></li>
+						</ul>
+					</div>
+					<div id="buttonS">
+						<div style="margin: 0 auto;width: 120px;">
+							<button id="sure">确定</button>
+							<button id="delay">取消</button>
+						</div>							
+					</div>
+				</div>
+				<button class="l" id="chose" style="margin-top: 10px;">多选</button>
+			</div>
+			<div id="listBodyType02">
+				<div id="listBodyType02Son01">分类</div>
+				<div id="listBodyType02Son02">
+					<ul>
+						<li class="l" id="listBodyType02Son03">丽芝士</li>
+						<li class="l" id="listBodyType02Son03">多力多滋</li>
+						<li class="l" id="listBodyType02Son03">丽芝士</li>
+					</ul>
+				</div>
+				<button class="l" id="chose" style="margin-top: 5px;">多选</button>
+			</div>
+			<div id="listBodyType02">
+				<div id="listBodyType02Son01">分类</div>
+				<div id="listBodyType02Son02">
+					<ul>
+						<li class="l" id="listBodyType02Son03">丽芝士</li>
+						<li class="l" id="listBodyType02Son03">多力多滋</li>
+						<li class="l" id="listBodyType02Son03">丽芝士</li>
+					</ul>
+				</div>
+				<button class="l" id="chose" style="margin-top: 5px;">多选</button>
+			</div>
+			<div id="condition" class="c">
+				<div id="conditionBox" class="l">综合</div>
+				<ul>
+					<li class="l" id="conditionBox02">销量<div class="Sbox r"><img src="img/list/down.png"/></div></li>
+					<li class="l" id="conditionBox02">新品<div class="Sbox r"><img src="img/list/down.png"/></div></li>
+					<li class="l" id="conditionBox02">评论<div class="Sbox r"><img src="img/list/down.png"/></div></li>
+					<li class="l" id="conditionBox02">价格<div class="Sbox r"><img src="img/list/UD.png"/></div></li>
+				</ul>
+			</div>
+			<div id="goodList" class="c l">
+				<div class="goodListBox">
+					<div id="goodListBox02"><a href="goodsDetail.html"><img src="img/list/Lgoods01.jpg"/></a></div>
+					<div id="goodListBox03">
+						<p>￥66.90</p>
+					</div>
+					<div id="goodListBox04">
+						<p>
+							<span class="Detail">自营</span>
+							印尼进口 Nabati 丽芝士（Richeese）休闲零食 奶酪味 威化饼干 4
+						</p>
+					</div>
+					<div id="goodListBox05">
+						<div class="number l">1</div>
+						<div id="Button" class="l">
+							<div class="upButton"><span>+</span></div>
+							<div class="downButton"><span>-</span></div>
+						</div>
+						<div id="addShopcar" class="l">
+							加入购物车
+						</div>
+					</div>
+					<div class="comment ">
+						<div class="Sbox l"><img src="img/list/info.png"/></div>
+						<span class="l">44万+</span> 
+						<div class="Sbox l" style="margin-left: 20px;"><img src="img/list/nice.png"/></div>
+						<span class="l commentText">90%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="t" style="background-color: white;">
+			<div id="tail" class="c">
+				<ul style="margin: 0px auto;">
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo16.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>正品保障</b></p>
+							<p>正品行货 放心选购</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo17.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>满86包邮</b></p>
+							<p>满86元 免运费</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo19.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>售后无忧</b></p>
+							<p>7天无理由退货</p>
+						</div>
+					</li>
+					<li id="tailBox" class="l">
+						<div id="tailBoxSon" class="l">
+							<img src="img/index/logoPic/logo18.jpg"/>
+						</div>
+						<div id="tailBoxSon2" class="tailBoxSon2 r">
+							<p><b>准时货达</b></p>
+							<p>收货时间由你做主</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="t" style="background-color: white;">
+			<div id="tailOne" class="c">
+				<div id="tailOneSon">
+					<ul>
+						<li id="tailOneSon2">新手入门</li>
+						<li id="tailOneSon2">支付方式</li>
+						<li id="tailOneSon2">配送服务</li>
+						<li id="tailOneSon2">售后保障</li>
+					</ul>
+					<ul>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3"></li>
+						<li id="tailOneSon3"></li>
+						<li id="tailOneSon3">购物流程</li>
+						<li id="tailOneSon3"></li>	
+					</ul>
+				</div>
+				<div id="tailtwoSon" class="r">
+					<ul>
+						<li id="tailtwoSon3">APP更优惠</li>
+						<li id="tailtwoSon3">加微信查订单</li>
+					</ul>
+					<ul>
+						<li id="tailtwoSon2"><img src="img/index/APP.png"/></li>
+						<li id="tailtwoSon2"><img src="img/index/wechat.jpg"/></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="t" style="background-color: white;">
+			<div id="footer01">
+				<p>沪ICP备16050468&nbsp;|&nbsp;经营证照&nbsp;|&nbsp;互联网药品信息服务资格证&nbsp;|&nbsp;
+			   违法和不良信息举报电话：0527-88100253&nbsp;|&nbsp;沪B2-20170039&nbsp;|&nbsp;
+			 沪公网安备 31010502002939号&nbsp;|&nbsp; 友情链接&nbsp;|&nbsp;出版物经营许可证&nbsp;|&nbsp;
+			 增值电信业务经营许可证</p>
+			</div>
+			<div id="footer02">
+				<img src="img/index/logoPic/BigLogo.JPG"/>
+			</div>
+		</div>
+	</body>
+</html>
