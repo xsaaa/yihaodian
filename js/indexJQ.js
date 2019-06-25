@@ -141,7 +141,7 @@ $(function(){
 									<img src="${data.goodsPic}"/>
 								</div>
 								<div id="goodsText">
-									<p>${data.info}</p>
+									<a title=${data.info}>${data.info}</a>
 									<div id="goodsDetail">
 										<div id="goodsSdetail"></div>
 									</div>
@@ -319,5 +319,11 @@ $(function(){
 			})
 			$('#siderbarSon5').click(function(){
 				 $('html,body').animate({ scrollTop: 0 }, 500);
+			})
+			$('.input').click(function(){
+				$('.searchson').css("display","block");
+			})
+			$('#search').mouseleave(function(){
+				$('.searchson').css("display","none");
 			})
 })
