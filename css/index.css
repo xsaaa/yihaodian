@@ -23,13 +23,20 @@
 	margin-top: -5px;
 }
 #nav01{
-	width: 1349px;
+	/*width: 100%;*/
+	/*width: 1920px;*/
 	height: 180px;
-	background-size:  1920px 180px;
-	background-image: url(../img/index/bgPic/bg01.jpg);
-	background-position: -280px 0;
-	margin: 0px auto;	
+	/*background-size:  100%;*/
+	/*background-image: url(../img/index/bgPic/bg01.jpg);*/
+	/*background-position: 0 38px;
+	background-repeat: no-repeat;
+	margin: 0px auto;	*/
+	background-color: white;
 }
+/*#nav01 img{
+	width: 100%;
+	height: 100%;
+}*/
 #nav02{
 	height: 180px;
 }
@@ -58,9 +65,57 @@
 	border-radius: 20px;
 	margin-top: 45px;
 	background-color: white;
+	position: relative;
 }
 #search:hover{
 	border-color: orangered;
+}
+.searchson{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 41px;
+	left: 30px;
+	background-color: palegreen;
+	z-index: 999;
+	border-radius: 2%;
+	/*border: solid 2px white;*/
+	display: none;
+}
+.his{
+	width: 180px;
+	height: 180px;
+	background-color: white;
+	border-top-left-radius:2% ;
+	border-bottom-left-radius:2%;
+	padding: 10px;
+	color: gray;
+}
+.hot{
+	width: 180px;
+	height: 180px;
+	background-color: #f4f4f4;
+	border-top-right-radius:2% ;
+	border-bottom-right-radius:2%;
+	padding: 10px;
+}
+.txt{
+	padding: 10px 0px;
+	/*background-color: paleturquoise;*/
+	width: 180px;
+	height: 150px;
+}
+.stxt{
+	padding: 5px 10px;
+	border: 1px solid gainsboro;
+	margin-top: 5px;
+	display: inline-block;
+}
+.stxt:hover{
+	color: orangered;
+	border-color: orangered;
+	cursor: pointer;
+	
 }
 .input{
 	width: 400px;
@@ -140,51 +195,57 @@
 	font-size: 14px;
 	float: left;
 	color: gray;
+	cursor: pointer;
 }
 .btn02:hover {
 	color: black;
 }
 #list02{
 	height: 10px;	
-	line-height: 38px;
+	line-height: 25px;
 	padding-top: 10px;
 }
 .btn03{
 	margin-right: 30px;
+	margin-top: 2px;
 	font-size: 16px;
 	float: left;
 }
 #caidan{
 	background-color: orangered;
 	color: white;
+	cursor: pointer;
 }
 .Sbox3{
 	width: 16px;
 	height: 16px;
 	padding: 3px 7px;
+	line-height: 32px;
 }
 .Sbox3 img{
-	width: 120%;
-	height: 120%;
+	width: 100%;
+	height: 100%;
 	margin-top: -7px;
 }
 #iconDown{
 	width: 20px;
 	height: 38px;
 	background-image: url(../img/index/iconDown.png);
-	background-size: 80% 60%;
+	background-size: 40% 40%;
 	background-repeat: no-repeat;
-	background-position: 2px 10px;
+	background-position: 12px 12px;
+	padding: 0 10px;
 }
 #caidanList{
 	position: absolute;
-    top: 210px;
-    left: 140px;
-    width: 1000px;
-    height: 413px;
+    top: 208px;
+    left: 225px;
+    width: 985px;
+    height: 363px;
     background-color: white;
     border: 1px solid orangered;
     z-index: 100;
+    padding: 25px;
     display: none;
 }
 #list03{
@@ -192,14 +253,27 @@
 	height: 360px;
 	border-right: 1px solid gainsboro;
 	float: left;
+	/*background-color: palegreen;*/
+}
+.marright-20{
+	margin-right: 20px;
+}
+h4{
+	color: black;
+	padding-bottom: 10px;
+}
+.u{
+	height: 180px;
+	margin-bottom: 10px;
 }
 .list03{
-	float: left;
-	font-size: 13px;
-	margin: 10px 10px -10px 10px;
+	font-size: 10px;
+}
+.marright-40{
+	margin-right: 40px;
 }
 #lunbo{
-	width: 1349px;
+	width: 100%;
 	height: 400px;
 	position: relative;
 	margin: 0px auto;
@@ -207,20 +281,30 @@
 }
 
 #picBox{
-	width: 1349px;
-	height: 400px;
+	/*width: auto;
+	height: 400px;*/
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	/*opacity: 0;*/
 }
 .picBox{
-	width: 1638px;
+	/*width: 1638px;*/
+	width: 100%;
 	height: 400px;
 	position: absolute;
 	top: 0;
-	left: -290px;	
+	/*left: -290px;*/	
+	/*left: -100px;*/
 	overflow: hidden;
 	/*background-color: palegoldenrod;*/
+}
+.picBox img{
+	width: 100%;
+	height: 100%;
+	/*margin: 0 auto;
+	display: inline-block;*/
 }
 .oBtn{
 	position: absolute;
@@ -237,6 +321,7 @@
 	float: left;
 	text-align: center;
 	line-height: 40px;
+	cursor: pointer;
 }
 #tuPian{
 	height: 110px;
@@ -312,6 +397,7 @@
 	height: 216px;
 	background-color: white;
 	float: left;
+	cursor: pointer;
 }
 #goodsList:hover{
 	box-shadow: 0 0 20px 0 gray;
@@ -331,6 +417,9 @@
 	width: 150px;
 	height: 81px;
 	padding: 0 30px;
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden;
 }
 #goodsDetail{
 	width: 150px;
@@ -385,7 +474,6 @@
 	position: absolute;
     top: 30px;
     left: 20px;
-    
 }
 #smallBox01 img{
 	width: 50px;
@@ -415,6 +503,7 @@
 	text-align: center;
 	line-height: 23px;
 	color: white;
+	cursor: pointer;
 }
 #smallTextbtn:hover{
 	background-color: darkslateblue;
@@ -494,6 +583,7 @@
 	line-height: 25px;
 	color: white;
 	font-size: 15px;
+	cursor: pointer;
 	background: rgba(255,255,255,0.1);
 }
 #title02List:hover{
@@ -523,6 +613,7 @@
 	text-align: center;
 	line-height: 29px;
 	margin-top: 70px;
+	cursor: pointer;
 	background: rgba(255,255,255,0.1);
 }
 #title03Box02:hover{
@@ -631,6 +722,7 @@
 				background-color: gray;
 				z-index: 9;
 				border-radius: 10px;
+				cursor: pointer;
 			}
 .before{
 	left: 20px;
@@ -698,6 +790,7 @@
 				background-color: gray;
 				z-index: 9;
 				border-radius: 10px;
+				cursor: pointer;
 			}
 .before02{
 	left: 0px;
@@ -954,7 +1047,7 @@
 	height: 24px;
 	/*background-color: paleturquoise;*/
 	float: left;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: left;
 	line-height: 24px;
 	color: gray;
