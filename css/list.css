@@ -485,6 +485,10 @@ img{
 	line-height: 24px;
 	color: gray;
 	padding: 0px 10px;
+	cursor: pointer;
+}
+#tailOneSon3:hover{
+	color: orangered;
 }
 #tailtwoSon{
 	width: 280px;
